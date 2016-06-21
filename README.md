@@ -4,7 +4,7 @@
     由于时间原因，当前阶段只美化了主界面，后续工作可能会美化所有部分。
 
 ### 界面展示    
-    ![main](https://github.com/ChinaTuring/streamer_for_windows/shotcut/main.jpg)
+    ![main](https://github.com/ChinaTuring/streamer_for_windows/blob/master/shotcut/main.JPG)
     
 ### 开发环境配置
     1. 安装vs2013,下载地址请上官网下载，只有vs2013 以下不能编译通过哦！
