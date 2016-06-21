@@ -3,8 +3,8 @@
     美化了展示界面的开源推流器。使用它用户可以很美观的推送rtmp流到流媒体服务器。
     由于时间原因，当前阶段只美化了主界面，后续工作可能会美化所有部分。
 
-### 界面展示    
-    ！[im](https://github.com/ChinaTuring/streamer_for_windows/raw/master/skin/btn_bk.png)
+### 界面展示
+![](https://github.com/ChinaTuring/streamer_for_windows/raw/master/shotcut/main.JPG)
     
 ### 开发环境配置
     1. 安装vs2013,下载地址请上官网下载，只有vs2013 以下不能编译通过哦！
