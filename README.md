@@ -4,7 +4,7 @@
     由于时间原因，当前阶段只美化了主界面，后续工作可能会美化所有部分。
 
 ### 界面展示    
-    ！[im](http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E7%A7%BB%E8%BD%B4%E6%91%84%E5%BD%B1&step_word=&pn=2&spn=0&di=129773627830&pi=&rn=1&tn=baiduimagedetail&is=&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=3445377427%2C2645691367&os=1552355012%2C341823336&simid=3376104868%2C486805203&adpicid=0&ln=1000&fr=&fmq=1464341735810_R&fm=&ic=0&s=undefined&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fitem%2F201112%2F27%2F20111227143751_TtLkL.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3B17tpwg2_z%26e3Bv54AzdH3Frj5rsjAzdH3F4ks52AzdH3F8lmamc09AzdH3F1jpwtsAzdH3F&gsm=0&rpstart=0&rpnum=0)
+    ！[im](https://github.com/ChinaTuring/streamer_for_windows/tree/master/shotcut/main.JPG)
     
 ### 开发环境配置
     1. 安装vs2013,下载地址请上官网下载，只有vs2013 以下不能编译通过哦！
