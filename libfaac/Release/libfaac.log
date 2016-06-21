@@ -1,0 +1,59 @@
+﻿生成启动时间为 2016/6/21 14:49:13。
+     1>项目“F:\songmm_moon_stone_obs\OBS\libfaac\libfaac.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0700 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /Zo aacquant.c backpred.c bitstream.c channels.c fft.c filtbank.c frame.c huffman.c ltp.c midside.c psychkni.c tns.c util.c
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Zo”
+         aacquant.c
+     1>aacquant.c(198): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>aacquant.c(337): warning C4307: “*”: 整型常量溢出
+     1>aacquant.c(337): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>aacquant.c(446): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>aacquant.c(447): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>aacquant.c(602): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>aacquant.c(614): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         backpred.c
+         bitstream.c
+         channels.c
+         fft.c
+     1>fft.c(614): warning C4244: “=”: 从“double”转换到“fftfloat”，可能丢失数据
+     1>fft.c(615): warning C4244: “=”: 从“double”转换到“fftfloat”，可能丢失数据
+         filtbank.c
+         frame.c
+     1>frame.c(235): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>frame.c(241): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>frame.c(242): warning C4244: “=”: 从“double”转换到“unsigned long”，可能丢失数据
+     1>frame.c(245): warning C4018: “>”: 有符号/无符号不匹配
+     1>frame.c(330): warning C4244: “=”: 从“const double”转换到“unsigned int”，可能丢失数据
+     1>frame.c(331): warning C4018: “>”: 有符号/无符号不匹配
+     1>frame.c(533): warning C4018: “<”: 有符号/无符号不匹配
+     1>frame.c(545): warning C4018: “<”: 有符号/无符号不匹配
+     1>frame.c(557): warning C4018: “<”: 有符号/无符号不匹配
+         huffman.c
+         ltp.c
+         midside.c
+         psychkni.c
+     1>psychkni.c(346): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>psychkni.c(393): warning C4244: “=”: 从“double”转换到“psyfloat”，可能丢失数据
+         tns.c
+         util.c
+         正在生成代码...
+       Lib:
+         D:\vs2013\VC\bin\Lib.exe /OUT:".\Release\libfaac.lib" /NOLOGO .\Release\aacquant.obj
+         .\Release\backpred.obj
+         .\Release\bitstream.obj
+         .\Release\channels.obj
+         .\Release\fft.obj
+         .\Release\filtbank.obj
+         .\Release\frame.obj
+         .\Release\huffman.obj
+         .\Release\ltp.obj
+         .\Release\midside.obj
+         .\Release\psychkni.obj
+         .\Release\tns.obj
+         .\Release\util.obj
+         libfaac.vcxproj -> F:\songmm_moon_stone_obs\OBS\libfaac\.\Release\libfaac.lib
+     1>已完成生成项目“F:\songmm_moon_stone_obs\OBS\libfaac\libfaac.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.09

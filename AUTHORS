@@ -1,0 +1,151 @@
+---------------------------------------------------
+Maintainer/Original Author:
+---------------------------------------------------
+  Hugh "Jim" Bailey (obs.jim@gmail.com) - Damnit Jim!  Primary contributor.
+                                          Whines a lot about stupid stuff.
+
+---------------------------------------------------
+Contributors:
+---------------------------------------------------
+  Richard "R1CH" Stanway   - Auto-Updater, high quality network code, bug
+                             fixes, design improvements, and frequent
+                             additions.
+
+  Bill Hamilton            - Added useful API interfaces, added audio meters
+                             and improved the audio code, made the remote
+                             plugin, and is a super classy individual.
+
+  Muf                      - Experimentation with new technology, mathematical
+                             support/discussion.  Helped develop/test frame
+                             drop code and helped develop the chroma key
+                             shaders, and helps with the more intricate details
+                             of broadcast/display standards.
+
+  paibox                   - Crossbar support for devices, alternate audio
+                             device support for devices through directshow,
+                             as well as bugfixes and various other minor
+                             features.
+
+  Ruwen "Palana" Hahn      - Intel Quick Sync Video encoding implementation. Wonder what's next :)
+
+  HomeWorld                - Many many bug fixes, improved the text source
+                             code significantly.  Text.  Loves text on the
+                             stream.  A lot.  Added a rather disturbing
+                             amount of features for text.
+
+  ThoNohT                  - Bug fixes, many minor additions, translation,
+                             features such as moving sources via arrow keys,
+                             additional menu options.
+
+  Lucas Murray             - Added noise gate plugin, refactored settings
+                             code, added 1:1 and fullscreen display.
+                             Then...  well.
+
+  fox1337                  - Added tray icon and notification code
+
+  others                   - Thanks to all the others who have contributed
+                             bugfixes, adjustments, tweaks, and features.
+
+---------------------------------------------------
+Obsproject.com website, artwork, and listening to Jim's incomprehensible
+venting:
+---------------------------------------------------
+  Taylor "Warchamp7" Giampaolo
+
+---------------------------------------------------
+Translations:
+---------------------------------------------------
+  Afrikaans             - Filip Stojanovic
+  Arabic                - 4miine, BWU Wheelman, Mohamed Hefny, tharmadawe, ZILZAL, Rami Hanna
+  Basque                - Xabier Aramendi
+  Bengali               - Filip Stojanovic
+  Bulgarian             - dwigga, Hath Ington, mjauz, SeanBrightside, Tsvetoslav Shalev, Viktor Kitov, iskrents, Night_Raven
+  Catalan               - Jordi Rull, Kassidy Kearey, Pau Risa, r0ckero, Albert Montolio Romo
+  Chinese Simplified    - Guijy, 鲜童 (xiananjyzy), PabloLiu, Flyer Fly, WaterOtaku, true-meaning, xing.liu.5688
+  Chinese Traditional   - Miau Hall, woodghost, You-Ruei Tzeng, PeterDaveHello, PabloLiu, 陳立偉（Vincent）, Jimmy Huang
+  Croatian              - kraghot, WhyJoseph, Filip Stojanovic
+  Czech                 - crongame, Jirka 'Venty' Michel, Yung Krud
+  Danish                - Amplificator, analleakage, Anders Urban, Crallebab, Jacob Nielsen, Jesper Juhl, martin.wilhardt, MikeyDK, WTFXeon, Jannik Heuser Petersen, Kristoffer Petersen, kristiangrinderslevnielsen, MaltahlGaming, SneakyCheezehead, Anders G. Jørgensen, Alexander Christensen
+  Dutch                 - jasper.klaren.1, jan.visser.90, Michiel Devliegere, Muf, ThoNohT, VydaX Davy, Moon Evoh, Cornelis de Jonge, Christiaan Biesterbosch, Eric Bataille, jordi1232
+  Estonian              - Andres Lasn, jaagup.kymmel, Kristjan Hiis, Mario Kuusk
+  Finnish               - Joni "Arkkis" Nieminen, Ville Närhi
+  French                - Alan Antunes, Antwan, Bertran de Balanda Jordi, BoboopTeam, George Crawford, Jean Pierre Ponce, Paradis, samcool_129, soopah, Jerom, Gabriel Dugny, DoK_-, Jonis Mommerency, George Crawford, 404: User Not Found, Tristan Overney, radzaquiel, Yberion, Mickaël Falck
+  Galician              - Brais Denís, Xesús M. Mosquera Carregal
+  German                - Gol D. Ace, Johannes Grill, Johannes Kroker, RobinJack0r, selebu, Marvin Gaube, Frank Gehann, BlackJack, Notri, stilicrafter, Palana, Gabriel Einsdorf
+  Greek                 - Alex.pap94, Apope Pe, Fariko Clombs, pragma
+  Hebrew                - AlderaaN, idan, mr_egghead
+  Hindi                 - Krishna Mohan
+  Hungarian             - Attila Elter, Bence SZ, Kashimus, Péter György Végh, szalai.szilard.33, Gige, ThorY
+  Italian               - Angelo, archaweb, Marocco2, Yung Krud, Edoardo Macri, Cody Benkoski, testamorta
+  Japanese              - shousa, kenta takumi, djyayutto, rye
+  Korean                - Seunghoon Yi, Wonjoo Noh, MayB
+  Lithuanian            - dominykas.tijunaitis, Pythlow Stubson, Martynas Jurgilas, zanza zanzaa, mantak
+  Norwegian             - areedw, August Kind Svendsen, Decicus, Jørgen D. Næss, Oddbjørn Grytdal, Sindre Nordhuus, Talimere, TCi, jens.aalbualvsaker, olaalsaker, Mastersofus, Tokiko
+  Norwegian Bokmal      - Anders Urban, Decicus, jens.aalbualvsaker, John, Jørgen D. Næss, Oddbjørn Grytdal, Stian Schultz, Tore, Lars Håvard Slørdal, areedw, Havatra, Arne Germundson, Tokiko
+  Pirate English        - Cornelis de Jonge, George Crawford, Gol D. Ace, Iotku, Jordi ♥ Daphne, lucas.cuminato, Neo_mat, Patric Morgan, TheKomputerKing, Tilen Kuzma, Bjorn Astrom, Kristoffer Petersen, JoeyCashFaceLibro, Pythlow Stubson, Aljaž Gros
+  Polish                - grocal, Jasiegg, Kamil Krzywda, Michał Durak, SuperStarPL, Unitax, Yung Krud, zeshika
+  Portuguese            - Anders Urban, beastmouth, Bruno Ferreira, mushiris, scrapy, Tiago Mendes, WarpOs, WillianPCH, xenon.pk, Yung Krud, zeshika, Sandro Amaral, Rodrigo
+  Portuguese, Brazilian - Anders Urban, caiquemain, felipe.bastos.1485, gmontanola, lucas.cuminato, SPapparazzi, Ramon Gonzalez, Ramon Mendes, Thiago A, WarpOs, William Sanches, WillianPCH, Eduardo Oliveira, Alaniz, Eduardo Oliveira, Fabio Madia, Ian Lawrence, gabrieldfreitas
+  Romanian              - alincupunct, banrek, Eduard Francu
+  Russian               - Corwin, flex19, Ivan Frolov, Кристиан Торрехон, MrYadro, Neo_mat, R3mbrant, Sergei Fug1t1v3, Woona, xuok, RuBuddy, kapranov.anton, Миха Александров, Silent Fly, Superiority “SPRT” Platoon, Bugo, thegrando, Anatoliy Samokisha, Yaroslav
+  Serbian               - Andjelo, dane.dukic, Momentum Faux, Filip Stojanovic
+  Slovak                - Anton Lokaj
+  Slovenian             - ArcaneWater, Luka Fistric, Aljaž Gros, kristjan.krusic
+  Spanish               - Alejandro, cE.Luka'23, DalbertoRodriguez, DeirenDNS, Javier Colter, JoeyCashFaceLibro, Jorge González Muñoz, NoFix, Roberto Lorenzo, Steve Correa, Vitamina P
+  Swedish               - Bjorn Astrom, henxx, Tomas Friberg
+  Thai                  - nongnoobjung
+  Turkish               - Alp Toros KORKMAZ, Burak Kaan Köse, gamemaster54, Heratio, Laserist, Omer Karagoz, Savas Tokmak, Umut Can Adıgüzel
+  Ukrainian             - JTG.N00B, Konata Izumi, Кристиан Торрехон, Sirioga, Миха Александров, Юрій
+  Vietnamese            - Thuan Huynhnguyen, tulpk07
+  Others                - Thanks to all the other authors whos names I have not written
+                          down.
+
+---------------------------------------------------
+Libraries:
+---------------------------------------------------
+  x264                   - The best h264 encoding library
+  libmp3lame             - A most non-lame library for encoding mp3 audio
+  libfaac                - An excellent open source library for encoding AAC
+  librtmp                - A nice open source library for the RTMP protocol
+  libsamplerate          - Secret rabbits make top resampling code.
+
+---------------------------------------------------
+Patient insane people who frequently help out in chat and on forums:
+---------------------------------------------------
+  Krazy
+  dodgepong
+  jack0r
+  Zephiris
+  hilalpro (even though we can disagree at times)
+  and all the other people who help out on the forums to allow the devs to
+  focus on code
+
+---------------------------------------------------
+Notable super awesome testers:
+---------------------------------------------------
+  Kyle "Kendobear" Asher - A guy who spent weeks helping test sync and timing
+                           code.  This guy deserves a medal for his patience.
+
+  D2Ultima/Frostshocker/Modnite - These guys helped me test the major network
+                                  code updates, as well as helped point out
+                                  compatibility issues for certain systems.
+                                  The greatly improved network code would not
+                                  have been possible without their testing.
+
+  Frostshocker - Helping get rid of all elgato-related issues and allowing Jim
+                 to vent about how much he hates capture devices.
+
+  Krazy - Always an eager guinea pig.
+
+  Any person who went through hours of testing.  Seriously, those people are
+  crazy awesome and I need to remember more of their names because there are
+  many of them.
+
+  Tons of others - Thanks to everyone else on the forums for reporting bugs,
+                   and thanks to all who come by chat to patiently go through
+                   bugfixing and testing for me.
+
+---------------------------------------------------
+Other super awesome people:
+---------------------------------------------------
+  You, if you actually read this.  Also, thank you if you find this app useful.

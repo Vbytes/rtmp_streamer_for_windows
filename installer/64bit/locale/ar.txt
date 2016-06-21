@@ -1,0 +1,223 @@
+RightToLeft="خطأ"
+
+Add="أضف"
+Preview="عرض تجريبي"
+Order="ترتيب"
+Apply="تطبيق"
+Browse="استعراض..."
+BuildingMP4Dialog="إخراج م ب 4"
+Cancel="إلغاء الأمر"
+ClearHotkey="محو"
+Close="اغلاق"
+Color="اللون"
+Default="الافتراضي"
+Defaults="الإفت"
+DeleteConfirm="هل أنت متأكد من أنك تريد حذف العناصر المحددة؟"
+Desktop="سطح المكتب"
+Disable="تعطيل"
+EncoderLag="تحذير : استعمال عالي للمعالج بسبب الترميز العالي ! ابحث تخفيض الاعدادات."
+EndingDelay="جاري انهاء البث المتأخر..."
+EnterName="الرجاء ادخال اسم"
+Gamma="الجاما:"
+GlobalSources="المصادر العامة..."
+MicrophoneFailure="حدث خطأ في بدأ تشغيل المايكروفون - قدي يكون غير موصول , او ان هناك برنامجاً اخر يستخدمه بشكل حصري."
+MonitorNum="الشاشة $1"
+MoveDown="تحريك للاسفل"
+MoveToBottom="التحريك للقاع"
+MoveToTop="التحريك للقمة"
+MoveUp="التحريك للاعلى"
+NameExists="'$1' هو موجود فعلاً. الرجاء اختيار اسم اخر"
+None="لا شيء"
+OK="موافق"
+Optimize="تعديل متوازن"
+Plugins="الاضافات..."
+Reconnecting="اعادة الاتصال..."
+Refresh="تحديث"
+Remove="حذف"
+Rename="اعادة تسمية"
+Copy="نسخ"
+Scene="مشهد"
+Settings="اعدادات..."
+LogWindow="سجل الاحداث"
+StreamReport="تقرير البث"
+MessageBoxWarningCaption="تحذير"
+NoSourcesFound="لم تقم باضافة ايه مصادر ! هل تريد ان تبث شاشة سوداء؟"
+StreamClosePending="البث او اخراج الملف لم ينتهي, اغلاق OBS قد يسبب قطع البث قبل نهايته او تخريب الملف. هل تريد الانتظار 15 ثانية لانهاء العملية؟"
+InstallServiceConfirm="هل تريد اضافة خدمة البث '$1' الى قائمة خدمات OBS ؟"
+InstallServiceAlreadyInstalled="خدمة البث '$1' قد تم تحميلها . هل تريد ان تزيلها؟"
+
+
+
+
+
+
+
+BuildingMP4Dialog.Progress="انشاء mp4 , الرجاء الانتظار..."
+
+Connection.CouldNotConnect="غير قادر على الاتصال بالسيرفر"
+Connection.CouldNotParseURL="غير قادر على تحليل رابط RTMP"
+Connection.Disconnected="تم فصل الاتصال من قبل السيرفر"
+Connection.InvalidStream="غير قادر على الوصول للقناة المحددة او مفتاح البث. قد يكون هذا بسبب ان المفتاح/القناة غير صحيحة , او بسبب ان السيرفر يعتبر انك لازلت في وضع تسجيل الدخول."
+
+DeleteConfirm.Title="حذف العنصر المختار ؟"
+
+EndingDelay.TimeLeft="الوقت المتبقي $1"
+
+GlobalSources.DeleteConfirm="اذا قمت بحذف مصدر عام , فإنه سيحذف من اي مشهد يستخدمه. هل انت متأكد بأنك تريد الاستمرار ؟"
+
+Listbox.Add="اضف $1"
+Listbox.Center="الوسط"
+Listbox.CenterHorizontally="الوسط افقياً"
+Listbox.CenterVertically="الوسط عامودياً"
+Listbox.MoveTop="تحريك للقمة"
+Listbox.MoveRight="التحريك الى الجهة اليمنى"
+Listbox.MoveBottom="التحريك للقاع"
+Listbox.MoveLeft="التحريك للجهة اليسرى"
+Listbox.Config="الخصائص"
+Listbox.FitToScreen="تمديد"
+Listbox.Positioning="الموضع/الحجم"
+Listbox.ResetSize="اعادة الحجم"
+Listbox.SetHotkey="وضع مفتاح اختصار"
+ListBox.ResetCrop="اعادة القص"
+
+
+MainMenu.File="&ملف"
+MainMenu.Help="م&ساعدة"
+MainMenu.Profiles="ال&بروفايل"
+MainMenu.Settings="ا&لاعدادات"
+
+
+MainMenu.Settings.AlwaysOnTop="الب&قاء فوق النوافذ الاخرى"
+MainMenu.Settings.FullscreenMode="المعاي&نة في وضع ملء الشاشة"
+MainMenu.Settings.Projector="العا&رض"
+
+MainMenu.File.Exit="&خروج"
+MainMenu.File.Save="&حفظ"
+
+
+MainMenu.Help.VisitWebsite="زيارة الموقع الالكتروني"
+MainMenu.Help.CheckForUpdates="&فحص التحديثات"
+
+MainMenu.Settings.OpenConfigFolder="فتح مجلد الا&عدادات"
+MainMenu.Settings.OpenLogFolder="ف&تح مجلد العمليات"
+
+MainWindow.Dashboard="لوحة المعلومات"
+MainWindow.DroppedFrames="الفريمات ( الاطارات) التي تم اسقاطها:"
+MainWindow.Exit="خروج"
+MainWindow.Plugins="الاضافات"
+MainWindow.SceneEditor="تحرير المشهد"
+MainWindow.Scenes="المشاهد:"
+MainWindow.Sources="المصادر:"
+MainWindow.StartRecording="بدء التسجيل"
+MainWindow.StopRecording="إيقاف التسجيل"
+MainWindow.StartStream="بدء البث"
+MainWindow.StopStream="ايقاف البث"
+MainWindow.StopTest="ايقاف المعاينة"
+MainWindow.TestStream="معاينة البث"
+
+
+Plugins.Configure="اعداد"
+Plugins.Description="التفاصيل:"
+Plugins.Filename="اسم الملف:"
+
+Reconnecting.Retrying="لم يتمكن من اعادة الاتصال. يحاول مرة اخرى"
+
+RenderView.EnableView="تمكين المشاهدة"
+RenderView.DisplayPanel="تمكين لوحة التحكم"
+RenderView.ViewModeScaleToFit="تغيير الابعاد لوضع الاحتواء"
+RenderView.ViewMode1To1="وضع 1:1"
+
+Scene.Hotkey="مفتاح إختصار المشهد "
+Scene.MissingSources="لم يكن قادراً على تحميل كل مصادر الصور بسبب إما اعدادات خاطئة أو اضافة مفقودة"
+
+Scene.Hotkey.AlreadyInUse="هذا المفتاح مستخدم مسبقاً."
+Scene.Hotkey.Hotkey="المفتاح:"
+
+Capture.Start.FileStream.WarningCaption="تحذير"
+Capture.Start.FileStream.Warning="غير قادر على انشاء ملف البث.\n\n الرجاء التأكد من مسار الملف من اعدادات البث."
+
+Settings.Advanced="متقدم"
+Settings.Audio="الصوت"
+Settings.Encoding="الترميز"
+Settings.General="عام"
+Settings.Info="هذه الاعدادات سيتم تطبيقها عندما تقوم ببدء البث في المرة المقبلة."
+Settings.Publish="اعدادات البث"
+Settings.SaveChangesPrompt="هل تود حفظ و تطبيق التغييرات التي قمت بها ؟"
+Settings.SaveChangesTitle="تطبيق الاعدادت ؟"
+Settings.Video="الفيديو"
+
+
+
+Settings.Advanced.AllowOtherHotkeyModifiers="السماح بمعدلات أخرى على مفاتيح الاختصار"
+Settings.Advanced.BindToIP="الربط إلى الواجهة :"
+Settings.Advanced.DisablePreviewEncoding="تعطيل ترميز الفيديو أثناء المعاينة"
+Settings.Advanced.LatencyTuning="معامل ضبط التأخير:"
+Settings.Advanced.Network="الشبكة"
+Settings.Advanced.ProcessPriority="معالجة اولوية الفئة"
+Settings.Advanced.SendBufferSize="حجم ارسال التخزين المؤقت:"
+Settings.Advanced.UnlockHigherFPS="السماح بدخول 61-120 إطاراً في الثانية في إعدادات الفيديو"
+Settings.Advanced.UseCBR="استخدام معدل ترميز ثابت"
+Settings.Advanced.PadCBR="تمكين حشو معدل الترميز الثابت"
+Settings.Advanced.PadCBRToolTip="القيمة الافتراضية هي لمعدل الترميز الثابت العادي."
+Settings.Advanced.UseCFR="استخدم معدل فريمات ثابت"
+Settings.Advanced.UseMultithreadedOptimizations="تحسين الاداء باستخدام الترابط المتعدد"
+Settings.Advanced.QSVUseVideoEncoderSettings="تخصيص التزامن السريع لاعدادات الترميز"
+Settings.Advanced.SceneBufferTime="زمن تخزين المحلي للمشهد  (ميللي ثانية):"
+Settings.Advanced.SyncToVideoTime="اجبار صوت سطح المكتب على استخدام توقيت الفيديو كقاعدة لتوقيت الصوت"
+Settings.Advanced.VideoEncoderCPUTradeoff="الاعدادات المسبقة لوحدة المعالجة المركزية للـ x264:"
+Settings.Advanced.VideoEncoderSettings="إعدادات مخصصة لترميز x264"
+
+Settings.Advanced.Priority.Idle="خامل"
+Settings.Advanced.Priority.Normal="عادي"
+Settings.Advanced.Priority.AboveNormal="أعلى من المعدل الطبيعي"
+Settings.Advanced.Priority.High="مرتفعة"
+
+Settings.Audio.ShowOnlyConnectedDevices="إظهار الأجهزة المتصلة فقط"
+
+Settings.Encoding.Audio="ترميز الصوت"
+Settings.Encoding.Video="ترميز الفيديو"
+
+Settings.Encoding.Audio.Bitrate="معدل النقل:"
+Settings.Encoding.Audio.Codec="الترميز:"
+Settings.Encoding.Audio.Format="الصيغة:"
+
+Settings.Encoding.Video.BufferSize="حجم التخزين المؤقت (كيلوبت):"
+Settings.Encoding.Video.MaxBitRate="الحد الأعلى لتدفق البيانات  (كيلو بت/ثانية):"
+
+Settings.General.Language="اللغة:"
+Settings.General.Restart="تغيير اللغة يتطلب اعادة تشغيل البرنامج.\r\n\r\n.. اظن بما انك تقوم بتغيير اللغة اذن انت لا تستطيع فهم هذه الجملة"
+
+Settings.Publish.AutoReconnect="اعادة الاتصال تلقائياً:"
+
+
+
+
+
+
+
+
+
+
+Sources.SoftwareCaptureSource.Monitor="الشاشة:"
+Sources.SoftwareCaptureSource.MonitorCapture="تصوير الشاشة"
+Sources.SoftwareCaptureSource.MouseCapture="إظهار مؤشر الماوس"
+Sources.SoftwareCaptureSource.Size="الحجم:"
+Sources.SoftwareCaptureSource.Window="نافذة:"
+
+Sources.TextSource.Bold="عريض"
+Sources.TextSource.Center="وسط"
+Sources.TextSource.EnterText="ادخل نص"
+Sources.TextSource.Size="الحجم:"
+Sources.TextSource.Underline="تسطير"
+
+
+
+
+
+
+
+
+
+
+
+

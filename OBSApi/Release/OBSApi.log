@@ -1,0 +1,68 @@
+﻿生成启动时间为 2016/6/21 14:49:19。
+     1>项目“F:\songmm_moon_stone_obs\OBS\OBSApi\OBSApi.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D OBSAPI_EXPORTS /D BASE_EXPORTING /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zo APIDefs.cpp AudioSource.cpp ColorControl.cpp GraphicsSystem.cpp HotkeyControlEx.cpp OBSApi.cpp Scene.cpp SettingsPane.cpp Utility\DebugAlloc.cpp Utility\FastAlloc.cpp "Utility\utf8-windows.cpp" VolumeControl.cpp VolumeMeter.cpp Utility\ConfigFile.cpp Utility\Profiler.cpp Utility\XConfig.cpp Utility\XFile_Windows.cpp Utility\XMath.cpp Utility\XString.cpp Utility\XT.cpp Utility\XT_Windows.cpp Utility\XTLocalization.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Zo”
+         APIDefs.cpp
+         AudioSource.cpp
+         ColorControl.cpp
+         GraphicsSystem.cpp
+         HotkeyControlEx.cpp
+         OBSApi.cpp
+         Scene.cpp
+     1>Scene.cpp(225): warning C4316: “SceneItem”: 在堆上分配的对象可能不是对齐 16
+         SettingsPane.cpp
+         DebugAlloc.cpp
+         FastAlloc.cpp
+         utf8-windows.cpp
+         VolumeControl.cpp
+         VolumeMeter.cpp
+         ConfigFile.cpp
+         Profiler.cpp
+         XConfig.cpp
+         XFile_Windows.cpp
+         XMath.cpp
+         XString.cpp
+         XT.cpp
+         正在编译...
+         XT_Windows.cpp
+         XTLocalization.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\OBSApi.res" OBSApi.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\OBSApi.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../libsamplerate/release winmm.lib psapi.lib libsamplerate.lib Xinput9_1_0.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\rundir\pdb32\OBSApi.pdb" /PDBSTRIPPED:"..\rundir\pdb32\stripped\OBSApi.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\OBSApi.lib" /MACHINE:X86 /SAFESEH /DLL Release\OBSApi.res
+         Release\APIDefs.obj
+         Release\AudioSource.obj
+         Release\ColorControl.obj
+         Release\GraphicsSystem.obj
+         Release\HotkeyControlEx.obj
+         Release\OBSApi.obj
+         Release\Scene.obj
+         Release\SettingsPane.obj
+         Release\DebugAlloc.obj
+         Release\FastAlloc.obj
+         "Release\utf8-windows.obj"
+         Release\VolumeControl.obj
+         Release\VolumeMeter.obj
+         Release\ConfigFile.obj
+         Release\Profiler.obj
+         Release\XConfig.obj
+         Release\XFile_Windows.obj
+         Release\XMath.obj
+         Release\XString.obj
+         Release\XT.obj
+         Release\XT_Windows.obj
+         Release\XTLocalization.obj
+            正在创建库 Release\OBSApi.lib 和对象 Release\OBSApi.exp
+         正在生成代码
+         已完成代码的生成
+         OBSApi.vcxproj -> F:\songmm_moon_stone_obs\OBS\OBSApi\Release\OBSApi.dll
+       PostBuildEvent:
+         copy Release\OBSApi.dll ..\rundir
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“F:\songmm_moon_stone_obs\OBS\OBSApi\OBSApi.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.73

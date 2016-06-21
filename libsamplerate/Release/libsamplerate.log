@@ -1,0 +1,40 @@
+﻿生成启动时间为 2016/6/21 14:49:13。
+     1>项目“F:\songmm_moon_stone_obs\OBS\libsamplerate\libsamplerate.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBSAMPLERATE_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /Zo samplerate.c src_linear.c src_sinc.c src_zoh.c
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Zo”
+         samplerate.c
+         src_linear.c
+         src_sinc.c
+     1>src_sinc.c(473): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(474): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(625): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(626): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(627): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(628): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(783): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(784): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(785): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(786): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(787): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(788): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1009): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1012): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1015): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1018): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1021): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1024): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1027): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src_sinc.c(1030): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         src_zoh.c
+       Lib:
+         D:\vs2013\VC\bin\Lib.exe /OUT:"Release\libsamplerate.lib" /NOLOGO /LTCG Release\samplerate.obj
+         Release\src_linear.obj
+         Release\src_sinc.obj
+         Release\src_zoh.obj
+         libsamplerate.vcxproj -> F:\songmm_moon_stone_obs\OBS\libsamplerate\Release\libsamplerate.lib
+     1>已完成生成项目“F:\songmm_moon_stone_obs\OBS\libsamplerate\libsamplerate.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.79

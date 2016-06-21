@@ -1,2 +1,24 @@
-# streamer_for_windows
-a nice UI windows publish tool push rtmp stream to Live Stream Server base on OBS
+### 简介
+    桌面版推流器是月光石网络科技公司团队基于OBS推流软件API，团队在其上删除了一些不必要的功能，
+    美化了展示界面的开源推流器。使用它用户可以很美观的推送rtmp流到流媒体服务器。
+    由于时间原因，当前阶段只美化了主界面，后续工作可能会美化所有部分。
+
+### 界面展示    
+    ![][shotcut/main.jpg]
+    
+### 开发环境配置
+    1. 安装vs2013,下载地址请上官网下载，只有vs2013 以下不能编译通过哦！
+    2. 安装Directx 10 ,下载地址同上。
+    
+### 编译步骤
+    1. 使用vs2013 打开项目下OBS-ALL.sln 文件，待加载完成后点击重新生成解决方案。
+    2. 编译完成后到rundir目录下,如果是编译的32位则运行copyrelease.bat脚本,64位
+       运行相应的脚本。
+    3. 点击OBS.exe 如果成功，则可以出现主画面
+### 安装包制作
+    解压rundir下HofoSetup-v4.0.1.zip到指定目录，然后点击可执行文件按照说明进行打包发布
+    打包时应该把directx 10 加到添加可执行或脚本选项中
+### 技术支持
+    如果遇到不可解决问题，可发送邮件到本人邮箱，本人有时间会一一答复!
+    邮箱地址:songming8998@126.com
+    公司网址：http://www.vbyte.cn/

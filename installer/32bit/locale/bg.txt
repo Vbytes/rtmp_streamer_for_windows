@@ -1,0 +1,302 @@
+RightToLeft="false"
+
+Add="Добави"
+Preview="Преглед"
+Order="Ред"
+Apply="Приложи"
+Browse="Избери..."
+BuildingMP4Dialog="Изграждане на МП4"
+Cancel="Откажи"
+ClearHotkey="Изчистване"
+Close="Затвори"
+Color="Цвят"
+Default="По подразбиране"
+Defaults="По подразбиране"
+DeleteConfirm="Сигурен ли сте че искате да изтриете избраните предмети?"
+Desktop="Работен плот"
+Disable="Деактивирай"
+EndingDelay="Приключване на забавеният поток..."
+EnterName="Моля въведете име"
+Gamma="гама:"
+GlobalSources="Глобални Източници"
+IncompatibleModules="Несъвместими \"hook\" модули бяха открити в процеса на OBS. Моля уверете се, че OBS е добавен в списъка с игнорирани процеси на всеки овърлей или програми за записване като DXTory, FRAPS, ASUS/MSI OSD и тнт. След промяна в настройките за игнориране или затварянето на подобни програми, може да Ви се наложи да затворите OBS, за да се направят промените.\r\n\r\nВъпреки това, може да игнорирате това предупреждение и да продължите нататък с риск OBS да преустанови работа."
+MicrophoneFailure="Визникна грешка при инициализиране звука на микрофона - може би не е включен, или друго приложение го използва в ексклузивен режим."
+MonitorNum="Монитор $1"
+MoveDown="Премести надолу"
+MoveToBottom="Премести най-долу"
+MoveToTop="Премести най-горе"
+MoveUp="Премести нагоре"
+NameExists="'$1' вече съществува.  Моля въведете различно име"
+None="Никакво"
+OK="OK"
+Plugins="Плъгини"
+Reconnecting="Повторно свързване..."
+Refresh="Опресняване"
+Remove="Премахни"
+Rename="Преименувай"
+Copy="Копиране"
+Scene="Сцена"
+Settings="Настройки"
+LogWindow="Прозорец с регистър"
+StreamReport="Стрийм рапорт"
+MessageBoxWarningCaption="Внимание"
+
+
+
+
+
+
+
+BuildingMP4Dialog.Progress="Създаване на MP4, моля изчакайте..."
+
+Connection.CouldNotConnect="Не може да се свърже със сървъра"
+Connection.CouldNotParseURL="Не може да се анализира RTMP URL"
+Connection.Disconnected="Изключен от сървъра"
+Connection.InvalidStream="Настоящият канал или стрийм ключ не е достъпен, Причината може да е поради невалиден ключ/канал, или защото сървърът предполага, че сте още логнат."
+
+DeleteConfirm.Title="Изтриване на избраните предмети?"
+
+EndingDelay.TimeLeft="Оставащо Време: $1"
+
+GlobalSources.DeleteConfirm="Ако премахнете глобален източник, той ще бъде изтрит от всички сцени - Продължаване?"
+
+Listbox.Add="Добави $1"
+Listbox.Center="Центрирай"
+Listbox.CenterHorizontally="Центрирай Хоризонтално"
+Listbox.CenterVertically="Центрирай Вертикално"
+Listbox.MoveTop="Премести Горе"
+Listbox.MoveRight="Премести в Десният Край"
+Listbox.MoveBottom="Премести Долу"
+Listbox.MoveLeft="Премести в Левият Край"
+Listbox.Config="Свойства"
+Listbox.FitToScreen="Сходно с екрана"
+Listbox.Positioning="Позиция/Размер"
+Listbox.ResetSize="Смени размера по подразбиране"
+Listbox.SetHotkey="Избери Клавишната Комбинация"
+ListBox.ResetCrop="Преустановяване на Изрязването"
+
+
+MainMenu.File="&Файл"
+MainMenu.Help="&Помощ"
+MainMenu.Profiles="&Профили"
+MainMenu.Settings="&Настройки"
+
+
+MainMenu.Settings.AlwaysOnTop="Винаги видим"
+MainMenu.Settings.FullscreenMode="&Преглед на Цял Екран"
+MainMenu.Settings.Projector="&Проектор"
+
+MainMenu.File.Exit="И&зход"
+MainMenu.File.Save="&Запис"
+
+
+MainMenu.Help.VisitWebsite="Посети Уебсайта"
+MainMenu.Help.CheckForUpdates="Провери за актуализации"
+
+MainMenu.Settings.OpenConfigFolder="Отвори &Конфигурационната Папка"
+MainMenu.Settings.OpenLogFolder="Отвори &Папка с логове"
+MainMenu.Settings.ShowLogWindow="Покажи прозорец с регистър"
+
+MainWindow.BeginMessage="Не стриймвате\n\nНатиснете \"Започни стрийм\", \"Започни записване\", или \" \"Прегледай стрийм\", за да започнете"
+MainWindow.Dashboard="Табло"
+MainWindow.DroppedFrames="Отпаднали кадри:"
+MainWindow.Exit="Излизане"
+MainWindow.Plugins="Плъгини"
+MainWindow.SceneEditor="Редактирай сцена"
+MainWindow.Scenes="Сцени:"
+MainWindow.Sources="Източници:"
+MainWindow.StartRecording="Започни записване"
+MainWindow.StopRecording="Спри записване"
+MainWindow.StartStream="Старт"
+MainWindow.StopStream="Стоп"
+MainWindow.StopTest="Стоп Тест"
+MainWindow.TestStream="Тест стрийм"
+
+
+Plugins.Configure="Конфигурирай"
+Plugins.Description="Описание:"
+Plugins.Filename="Име на файл:"
+
+Reconnecting.Retrying="Не може да свържете наново.  Повторен опит"
+
+RenderView.EnableView="Разреши Изглед"
+RenderView.DisplayPanel="Разреши Контролен Панел"
+RenderView.ViewModeScaleToFit="Режим - мащаб за побиране"
+RenderView.ViewMode1To1="Режим 1:1"
+
+Scene.Hotkey="Сцена - Клавишна Комбинация"
+Scene.MissingSources="Видео източниците не можаха да бъдат заредени поради невалидни настройки или липсващи плугини"
+
+Scene.Hotkey.AlreadyInUse="Този клавиш е вече в употреба."
+Scene.Hotkey.Hotkey="Клавиш:"
+
+Capture.Start.FileStream.WarningCaption="Предупреждение"
+Capture.Start.FileStream.Warning="Не може да създаде стрийма на изходния файл.\n\nПоверете пътя на файла в Настройки на Излъчването."
+
+Settings.Advanced="Разширения"
+Settings.Audio="Звук"
+Settings.Encoding="Енкодинг"
+Settings.General="Основни"
+Settings.Info="Тези настройки няма да бъдат приложени до следващия Ви стрийм."
+Settings.Publish="Стрийм настройки"
+Settings.SaveChangesPrompt="Запазване на настройките и прилагане?"
+Settings.SaveChangesTitle="Прилагане на настройките?"
+Settings.Video="Видео"
+
+
+
+Settings.Advanced.AllowOtherHotkeyModifiers="Позволи други модификатори на клавишите"
+Settings.Advanced.BindToIP="Свързване към интерфейса:"
+Settings.Advanced.DisablePreviewEncoding="Изключване на кодиране при визуализиране"
+Settings.Advanced.LatencyTuning="Фактор за регулиране на латентност:"
+Settings.Advanced.Network="Мрежа"
+Settings.Advanced.PresetWarning="ВНИМАНИЕ! Смяната на предварително зададените х264 настройки може да има сериозни ефекти над качеството на картината и използването на процесора. Не сменяйте тази настройка, освен, ако не знаете как тези настройки работят. Имайте едно на ум когато използвате уроци, който ви казват да променяте тази настройка. Почти никога няма нужда да се сменя тази настройка от стандартно зададената (veryfast). Сигурни ли сте че искате да промените настройките?"
+Settings.Advanced.ProcessPriority="Категория Приоритет на Процес"
+Settings.Advanced.SendBufferSize="Изпрати Буфер с Размер:"
+Settings.Advanced.UnlockHigherFPS="Позволи 61-120 FPS встъпление във видео настройки"
+Settings.Advanced.UseCBR="Използвай CBR"
+Settings.Advanced.PadCBR="Позволи CBR подложка"
+Settings.Advanced.UseMultithreadedOptimizations="Използване ма многонишкови оптимизации"
+
+Settings.Advanced.Priority.Normal="Нормален"
+Settings.Advanced.Priority.High="Висок"
+
+Settings.Audio.Device="Микрофон/Aux звуково устройство:"
+Settings.Audio.PushToTalkDelay="Push-to-talk забавяне (милисекунди):"
+Settings.Audio.ShowOnlyConnectedDevices="Покажи само свързани устройства"
+Settings.Audio.ResetMic="Преустановяване"
+
+Settings.Encoding.Audio="Аудио енкодинг"
+Settings.Encoding.Video="Видео енкодинг"
+
+Settings.Encoding.Audio.Bitrate="Битрейт:"
+Settings.Encoding.Audio.Codec="Кодек:"
+Settings.Encoding.Audio.Format="Формат:"
+
+Settings.Encoding.Video.BufferSize="Размер на бъфер (kbit):"
+Settings.Encoding.Video.BufferSizeTooltip="Размер на буфера, определя колко данни се буферират.  Тази стойност засяга особено високо движещи се сцени.  Ако не знаете какво да попълните, го настроите да е толкова колкото е вашият битрейт.  Вижте помощния файл за повече информация."
+Settings.Encoding.Video.CustomBuffer="Използвай собствен буфер размер"
+Settings.Encoding.Video.KeyframeInterval="Keyframe интервал (секунди, 0 = автоматично):"
+Settings.Encoding.Video.MaxBitRate="Макс битрейт (kb/s):"
+Settings.Encoding.Video.Quality="Качество:"
+
+Settings.General.Add="Добави нов"
+Settings.General.ConfirmDelete="Наистина ли искате да премахнете този профил \"$1\"?"
+Settings.General.EnableProjectorCursor="Разреши курсора над проектора"
+Settings.General.Language="Език:"
+Settings.General.Profile="Настройка на профил:"
+Settings.General.Notification="Икона за зоната за уведомителни съобщения"
+Settings.General.NotificationMinimize="Намаляване до областта за уведомяване"
+Settings.General.ShowObs="Покажи OBS"
+Settings.General.HideObs="Скрий OBS"
+Settings.General.Restart="Сменянето на езика изисква рестарт на OBS.\r\n\r\n..Но предполагам че щом сменяш езика не можеш да разбереш това."
+
+Settings.Publish.AutoReconnect="Автоматично свързване:"
+Settings.Publish.AutoReconnectTimeout="Изчакване за автоматично свързване:"
+Settings.Publish.ChannelName="Име на канала:"
+Settings.Publish.DashboardLink="Връзка за Табло (ако има):"
+Settings.Publish.Delay="Забавяне (секунди):"
+Settings.Publish.KeepRecording="Продължи записване при спиране на стрийма:"
+Settings.Publish.LowLatencyMode="Намаляване въздействието върху мрежата:"
+Settings.Publish.Mode="Режим:"
+Settings.Publish.Password="Парола (ако има такава):"
+Settings.Publish.Playpath="Стрийм ключ (ако има такъв):"
+Settings.Publish.SavePath="Път до файла:"
+Settings.Publish.Server="Сървър:"
+Settings.Publish.Service="Стрийминг услуга:"
+Settings.Publish.Username="Потребителско име (ако има такова):"
+
+
+Settings.Publish.Mode.LiveStream="Излъчване на живо"
+
+
+
+Settings.Video.Custom="Къстъм:"
+Settings.Video.Device="Видео адаптер:"
+Settings.Video.DisableAero="Изключи Аеро при старт:"
+Settings.Video.Downscale="Смаляване на резолюция:"
+Settings.Video.Filter="Филтър:"
+Settings.Video.FPS="FPS:"
+Settings.Video.Monitor="Монитор:"
+Settings.Video.Resolution="Базова резолюция:"
+
+
+Sources.BitmapSource="Изображение"
+Sources.GlobalSource="Глобален източник"
+Sources.TextSource="Текст"
+
+Sources.BitmapSource.Color="Цвят:"
+Sources.BitmapSource.Empty="Няма избрано битмап изображение. Моля изберете валиден битмап файл"
+Sources.BitmapSource.Opacity="Прозрачност:"
+Sources.BitmapSource.Monitor="Проверка за промени във файл:"
+
+Sources.GameCaptureSource.Application="Приложение:"
+Sources.GameCaptureSource.IgnoreAspect="Игнорирай пропорции"
+Sources.GameCaptureSource.SelectApplication="Избиране на приложение"
+Sources.GameCaptureSource.StretchToScreen="Разтягане на изображението по екрана"
+
+Sources.SoftwareCaptureSource.CompatibilityMode="Режим на съвместимост"
+Sources.SoftwareCaptureSource.EntireWindow="Целия прозорец"
+Sources.SoftwareCaptureSource.InnerWindow="Вътрешен прозорец"
+Sources.SoftwareCaptureSource.Monitor="Монитор:"
+Sources.SoftwareCaptureSource.Position="Позиция:"
+Sources.SoftwareCaptureSource.RegionCapture="Подрегион"
+Sources.SoftwareCaptureSource.Select="Избери"
+Sources.SoftwareCaptureSource.SelectRegion="Избери регион"
+Sources.SoftwareCaptureSource.SelectRegionTooltip="При избора на регион, преместете чрез щракване и плъзгане, или преоразмерите правоъгълника като щракнете върху ръбовете."
+Sources.SoftwareCaptureSource.SetStreamSize="Изберете базова резолюция"
+Sources.SoftwareCaptureSource.Size="Размер:"
+Sources.SoftwareCaptureSource.Window="Прозорец:"
+Sources.SoftwareCaptureSource.WindowMinimized="Прозорецът е минимизиран"
+Sources.SoftwareCaptureSource.WindowNotFound="Прозорец не е намерен"
+
+Sources.TextSource.Align="Подравняване:"
+Sources.TextSource.BackgroundColor="Цвят на фона:"
+Sources.TextSource.BackgroundOpacity="Прозрачност на фон:"
+Sources.TextSource.Bold="Удебелен"
+Sources.TextSource.Center="Центрирай"
+Sources.TextSource.EnterText="Въведи текст"
+Sources.TextSource.FileNotFound="Не може да отвори файла \"$1\""
+Sources.TextSource.Font="Шрифт:"
+Sources.TextSource.FontNotFound="Шрифтът \"$1\" не е намерен"
+Sources.TextSource.FontSize="Размер на шрифта:"
+Sources.TextSource.Italic="Курсив"
+Sources.TextSource.Left="Ляво"
+Sources.TextSource.Right="Дясно"
+Sources.TextSource.ScrollSpeed="Скорост на скролиране:"
+Sources.TextSource.Size="Размер:"
+Sources.TextSource.Underline="Подчертаване"
+Sources.TextSource.OutlineThickness="Дебелина:"
+Sources.TextSource.OutlineOpacity="Прозрачност:"
+Sources.TextSource.UseTextFromFile="Използване на текст от файл (UTF-8 или съвместим)"
+Sources.TextSource.VerticalScript="Вертикално"
+Sources.TextSource.Scroll="Скрол режим"
+
+Sources.TransitionSource.Bitmaps="Растерните изображения:"
+Sources.TransitionSource.Empty="Няма въведени растерни изображения за показване."
+Sources.TransitionSource.TimeBetweenBitmaps="Време между изображенията (секунди):"
+
+Stats.TotalBytesTransferred="Общо прехвърлени байтове:"
+
+
+
+
+Updater.DownloadNow="Желаете ли да ги изтеглите сега?"
+Updater.NewUpdates="Следните актуализации са достъпни: \r\n\r\n"
+Updater.RunningWarning="OBS ще се рестартира, за да инсталира актуализации.\r\n\r\n Сигурни ли сте, че искате да продължите?"
+Updater.UpdatesAvailable="Налични са актуализации"
+
+
+
+
+Plugins.NoiseGate.Thresholds="Прагове"
+Plugins.NoiseGate.General="Общи"
+Plugins.NoiseGate.Help="Помощ"
+Plugins.NoiseGate.EnablePreview="Разреши визуализация"
+Plugins.NoiseGate.DisablePreview="Забраняване на визуализация"
+Plugins.NoiseGate.ResetToDefaults="Възстанови стойностите по подразбиране"
+Plugins.NoiseGate.ConfirmReset="Сигурен ли си сте, че искате да възстановите настройките по подразбиране? Текущите ви настройки ще бъдат презаписани."
+Plugins.NoiseGate.OpenThreshold="Отвори\nПраг"
+Plugins.NoiseGate.CloseThreshold="Затвори\nПраг"
+
+

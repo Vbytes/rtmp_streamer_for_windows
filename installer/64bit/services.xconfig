@@ -1,0 +1,135 @@
+services : {
+  Twitch : {
+    id : 1
+    servers : {
+      "US West: San Francisco, CA"             : rtmp://live.twitch.tv/app
+      "Asia: Hong Kong"                        : rtmp://live-hkg.twitch.tv/app
+      "Asia: Seoul, South Korea"               : rtmp://live-sel.twitch.tv/app
+      "Asia: Singapore"                        : rtmp://live-sin.twitch.tv/app
+      "Asia: Taipei, Taiwan"                   : rtmp://live-tpe.twitch.tv/app
+      "Asia: Tokyo, Japan"                     : rtmp://live-tyo.twitch.tv/app
+      "Australia: Sydney"                      : rtmp://live-syd.twitch.tv/app
+      "EU: Amsterdam, NL"                      : rtmp://live-ams.twitch.tv/app
+      "EU: Frankfurt, DE"                      : rtmp://live-fra.twitch.tv/app
+      "EU: London, UK"                         : rtmp://live-lhr.twitch.tv/app
+      "EU: Paris, FR"                          : rtmp://live-cdg.twitch.tv/app
+      "EU: Prague, CZ"                         : rtmp://live-prg.twitch.tv/app
+      "EU: Stockholm, SE"                      : rtmp://live-arn.twitch.tv/app
+      "South America: Argentina"               : rtmp://live-eze.twitch.tv/app
+      "South America: Chile"                   : rtmp://live-scl.twitch.tv/app
+      "South America: Rio de Janeiro, Brazil"  : rtmp://live-gig.twitch.tv/app
+      "South America: Sao Paulo, Brazil"       : rtmp://live-gru.twitch.tv/app
+      "US Central: Dallas, TX"                 : rtmp://live-dfw.twitch.tv/app
+      "US East: Ashburn, VA"                   : rtmp://live-iad.twitch.tv/app
+      "US East: Chicago"                       : rtmp://live-ord.twitch.tv/app
+      "US East: Miami, FL"                     : rtmp://live-mia.twitch.tv/app
+      "US East: New York, NY"                  : rtmp://live-jfk.twitch.tv/app
+      "US West: Los Angeles, CA"               : rtmp://live-lax.twitch.tv/app
+      "US West: San Jose, CA"                  : rtmp://live-sjc.twitch.tv/app
+      "US West: Seattle, WA"                   : rtmp://live-sea.twitch.tv/app
+    }
+    recommended : {
+      "keyint" : 2000
+      "profile" : "main"
+      "ratecontrol" : "cbr"
+      "max bitrate" : 3500
+      "max audio bitrate aac" : 160
+      "max audio bitrate mp3" : 128
+      "video aspect ratio" : "16:9"
+    }
+  }
+  "Vaughn Live / iNSTAGIB.tv" : {
+    id : 3
+    servers : {
+      "US: Primary"           : rtmp://live.vaughnsoft.net:443/live
+      "US: San Jose, CA"      : rtmp://live-sjc.vaughnsoft.net:443/live
+      "US: New York, NY"      : rtmp://live-nyc.vaughnsoft.net:443/live
+      "US: New York 2, NY"    : rtmp://live-nyc2.vaughnsoft.net:443/live
+    }
+  }
+  GoodGame.ru : {
+    id : 5
+    servers : {
+      "Моscow"                : rtmp://msk.goodgame.ru:1940/live
+    }
+    recommended : {
+      "keyint" : 2000
+      "profile" : "main"
+      "ratecontrol" : "cbr"
+      "max bitrate" : 3500
+      "max audio bitrate aac" : 192
+      "max audio bitrate mp3" : 128
+      "video aspect ratio" : "16:9"
+    }
+  }
+  Dailymotion / Dailymotion Games : {
+    id : 6
+    servers : {
+      "Default (recommended)" : rtmp://publish.dailymotion.com/publish-dm
+      "France (PAR)"          : rtmp://fr.publish.dailymotion.com/publish-dm
+      "Singapore"             : rtmp://sg.publish.dailymotion.com/publish-dm
+      "USA East (NYC)"        : rtmp://use.publish.dailymotion.com/publish-dm
+      "USA West (SJC)"        : rtmp://usw.publish.dailymotion.com/publish-dm
+    }
+  }
+  YouTube / YouTube Gaming : {
+    id : 9
+    servers : {
+      "Primary YouTube ingest server" : rtmp://a.rtmp.youtube.com/live2
+      "Backup YouTube ingest server" : rtmp://b.rtmp.youtube.com/live2?backup=1
+    }
+    recommended : {
+      "keyint"      : 4000
+      "ratecontrol" : "cbr"
+    }
+  }
+  CyberGame.TV : {
+    id : 10
+    servers : {
+      "RU Origin"  : rtmp://st.cybergame.tv:1953/live
+      "RU Premium" : rtmp://premium.cybergame.tv:1953/premium
+      "EU Premium" : rtmp://vod5.cybergame.tv:1953/live/
+    }
+  }
+  hitbox.tv : {
+    id : 11
+    servers : {
+      "Default"                           : rtmp://live.hitbox.tv/push
+      "Asia: Singapore"                   : rtmp://live.sin.hitbox.tv/push
+      "China: Hong Kong"                  : rtmp://live.hkg.hitbox.tv/push
+      "EU-Central: Nurnberg, Germany"     : rtmp://live.nbg.hitbox.tv/push
+      "EU-East: Vienna, Austria"          : rtmp://live.vie.hitbox.tv/push
+      "EU-North: London, United Kingdom"  : rtmp://live.lhr.hitbox.tv/push
+      "EU-South: Milan, Italia"           : rtmp://live.mxp.hitbox.tv/push
+      "EU-West: Frankfurt, Germany"       : rtmp://live.fra.hitbox.tv/push
+      "EU-West: Paris, France"            : rtmp://live.cdg.hitbox.tv/push
+      "Oceania: Sydney, Australia"        : rtmp://live.syd.hitbox.tv/push
+      "Russia: Moscow"                    : rtmp://live.dme.hitbox.tv/push
+      "South America: Sao Paulo, Brazil"  : rtmp://live.gru.hitbox.tv/push
+      "South Korea: Seoul"                : rtmp://live.icn.hitbox.tv/push
+      "US-Central: Denver"                : rtmp://live.den.hitbox.tv/push
+      "US-East: New York"                 : rtmp://live.jfk.hitbox.tv/push
+      "US-East: Washington"               : rtmp://live.vgn.hitbox.tv/push
+      "US-West: Los Angeles"              : rtmp://live.lax.hitbox.tv/push
+      "US-West: San Francisco"            : rtmp://live.sfo.hitbox.tv/push
+    }
+    recommended : {
+      "keyint" : 2000
+      "ratecontrol" : "cbr"
+      "supported audio codec" : "AAC"
+      "video aspect ratio" : "16:9"
+    }
+  }
+  connectcast.tv : {
+    id : 12
+    servers : {
+      "Default"     : rtmp://stream.connectcast.tv/live
+    }
+  }
+  Azubu.tv : {
+    id : 13
+    servers : {
+      "API" : https://web-api.azubu.tv/stream/broadcaster-key/
+    }
+  }
+}

@@ -1,0 +1,141 @@
+﻿生成启动时间为 2016/6/21 14:49:40。
+     1>项目“F:\songmm_moon_stone_obs\OBS\OBS.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /IOBSApi /Iextras /Ilibmfx/include/msdk/include /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zo Source\API.cpp Source\BandwidthAnalysis.cpp Source\BitmapImage.cpp Source\BitmapImageSource.cpp Source\BitmapTransitionSource.cpp Source\BlankAudioPlayback.cpp Source\CodeTokenizer.cpp Source\CrashDumpHandler.cpp Source\D3D10OutputDuplicator.cpp Source\D3D10Shader.cpp Source\D3D10ShaderProcessor.cpp Source\D3D10System.cpp Source\D3D10Texture.cpp Source\D3D10VertexBuffer.cpp Source\DelayedPublisher.cpp Source\DesktopImageSource.cpp Source\Encoder_AAC.cpp Source\Encoder_MP3.cpp Source\Encoder_NVENC.cpp Source\Encoder_QSV.cpp Source\Encoder_x264.cpp Source\FLVFileStream.cpp Source\GetAudioDevices.cpp Source\GlobalSource.cpp Source\HTTPClient.cpp Source\ImageProcessing.cpp Source\InstallService.cpp Source\OBSButton.cpp Source\OBSTools.cpp Source\ReplayBuffer.cpp Source\LogUploader.cpp Source\Main.cpp Source\MMDeviceAudioSource.cpp Source\MP4FileStream.cpp Source\NullOutput.cpp Source\OBS.cpp Source\OBSCapture.cpp Source\OBSEvents.cpp Source\OBSHotkeyHandlers.cpp Source\OBSVideoCapture.cpp Source\RTMPPublisher.cpp Source\RTMPStuff.cpp Source\Service.cpp Source\Settings.cpp Source\SettingsAdvanced.cpp Source\SettingsAudio.cpp Source\SettingsEncoding.cpp Source\SettingsGeneral.cpp Source\SettingsHotkeys.cpp Source\SettingsPublish.cpp Source\SettingsQSV.cpp Source\SettingsVideo.cpp Source\StdAfx.cpp Source\TextOutputSource.cpp Source\Updater.cpp Source\WindowStuff.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Zo”
+         API.cpp
+         BandwidthAnalysis.cpp
+         BitmapImage.cpp
+         BitmapImageSource.cpp
+         BitmapTransitionSource.cpp
+         BlankAudioPlayback.cpp
+         CodeTokenizer.cpp
+         CrashDumpHandler.cpp
+         D3D10OutputDuplicator.cpp
+         D3D10Shader.cpp
+         D3D10ShaderProcessor.cpp
+         D3D10System.cpp
+         D3D10Texture.cpp
+     1>Source\D3D10Texture.cpp(70): warning C4316: “D3D10SamplerState”: 在堆上分配的对象可能不是对齐 16
+         D3D10VertexBuffer.cpp
+         DelayedPublisher.cpp
+         DesktopImageSource.cpp
+         Encoder_AAC.cpp
+         Encoder_MP3.cpp
+         Encoder_NVENC.cpp
+         Encoder_QSV.cpp
+         正在编译...
+         Encoder_x264.cpp
+         FLVFileStream.cpp
+         GetAudioDevices.cpp
+         GlobalSource.cpp
+         HTTPClient.cpp
+         ImageProcessing.cpp
+         InstallService.cpp
+         OBSButton.cpp
+         OBSTools.cpp
+         ReplayBuffer.cpp
+         LogUploader.cpp
+         Main.cpp
+         MMDeviceAudioSource.cpp
+         MP4FileStream.cpp
+         NullOutput.cpp
+         OBS.cpp
+     1>Source\OBS.cpp(2384): warning C4018: “<”: 有符号/无符号不匹配
+         OBSCapture.cpp
+         OBSEvents.cpp
+         OBSHotkeyHandlers.cpp
+         OBSVideoCapture.cpp
+         正在编译...
+         RTMPPublisher.cpp
+         RTMPStuff.cpp
+         Service.cpp
+         Settings.cpp
+         SettingsAdvanced.cpp
+         SettingsAudio.cpp
+         SettingsEncoding.cpp
+         SettingsGeneral.cpp
+         SettingsHotkeys.cpp
+         SettingsPublish.cpp
+         SettingsQSV.cpp
+         SettingsVideo.cpp
+         StdAfx.cpp
+         TextOutputSource.cpp
+         Updater.cpp
+         WindowStuff.cpp
+         D:\vs2013\VC\bin\CL.exe /c /IOBSApi /Iextras /Ilibmfx/include/msdk/include /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /Zo Source\libnsgif.c
+     1>cl : 命令行 warning D9002: 忽略未知选项“/Zo”
+         libnsgif.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\OBS.res" OBS.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\OBS.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:OBSApi/Release /LIBPATH:x264/libs/32bit /LIBPATH:librtmp/release /LIBPATH:lame/output/32bit /LIBPATH:libfaac/release crypt32.lib Avrt.lib dwmapi.lib comctl32.lib dxgi.lib dxguid.lib d3d10_1.lib d3dx10.lib ws2_32.lib Iphlpapi.lib Winmm.lib librtmp.lib "libmp3lame-static.lib" libfaac.lib dsound.lib obsapi.lib shell32.lib gdiplus.lib mfplat.lib Mfuuid.lib Winhttp.lib libx264.lib UxTheme.lib Xinput9_1_0.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTDEPENDENCY:"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='X86' publicKeyToken='6595b64144ccf1df' language='*'" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:OBS.manifest /DEBUG /PDB:"rundir\pdb32\OBS.pdb" /PDBSTRIPPED:"rundir\pdb32\stripped\OBS.pdb" /SUBSYSTEM:WINDOWS,"6.0" /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\OBS.lib" /MACHINE:X86 /SAFESEH /ignore:4049 /ignore:4217 Release\OBS.res
+         Release\API.obj
+         Release\BandwidthAnalysis.obj
+         Release\BitmapImage.obj
+         Release\BitmapImageSource.obj
+         Release\BitmapTransitionSource.obj
+         Release\BlankAudioPlayback.obj
+         Release\CodeTokenizer.obj
+         Release\CrashDumpHandler.obj
+         Release\D3D10OutputDuplicator.obj
+         Release\D3D10Shader.obj
+         Release\D3D10ShaderProcessor.obj
+         Release\D3D10System.obj
+         Release\D3D10Texture.obj
+         Release\D3D10VertexBuffer.obj
+         Release\DelayedPublisher.obj
+         Release\DesktopImageSource.obj
+         Release\Encoder_AAC.obj
+         Release\Encoder_MP3.obj
+         Release\Encoder_NVENC.obj
+         Release\Encoder_QSV.obj
+         Release\Encoder_x264.obj
+         Release\FLVFileStream.obj
+         Release\GetAudioDevices.obj
+         Release\GlobalSource.obj
+         Release\HTTPClient.obj
+         Release\ImageProcessing.obj
+         Release\InstallService.obj
+         Release\OBSButton.obj
+         Release\OBSTools.obj
+         Release\ReplayBuffer.obj
+         Release\libnsgif.obj
+         Release\LogUploader.obj
+         Release\Main.obj
+         Release\MMDeviceAudioSource.obj
+         Release\MP4FileStream.obj
+         Release\NullOutput.obj
+         Release\OBS.obj
+         Release\OBSCapture.obj
+         Release\OBSEvents.obj
+         Release\OBSHotkeyHandlers.obj
+         Release\OBSVideoCapture.obj
+         Release\RTMPPublisher.obj
+         Release\RTMPStuff.obj
+         Release\Service.obj
+         Release\Settings.obj
+         Release\SettingsAdvanced.obj
+         Release\SettingsAudio.obj
+         Release\SettingsEncoding.obj
+         Release\SettingsGeneral.obj
+         Release\SettingsHotkeys.obj
+         Release\SettingsPublish.obj
+         Release\SettingsQSV.obj
+         Release\SettingsVideo.obj
+         Release\StdAfx.obj
+         Release\TextOutputSource.obj
+         Release\Updater.obj
+         Release\WindowStuff.obj
+         正在生成代码
+         已完成代码的生成
+         OBS.vcxproj -> F:\songmm_moon_stone_obs\OBS\Release\OBS.exe
+       PostBuildEvent:
+         copy Release\OBS.exe rundir
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“F:\songmm_moon_stone_obs\OBS\OBS.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:46.45

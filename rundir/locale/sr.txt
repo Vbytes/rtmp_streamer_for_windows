@@ -1,0 +1,307 @@
+RightToLeft="false"
+
+Add="Додај"
+Preview="Прегледај"
+Order="Наручи"
+Apply="Примени"
+Browse="Претражи..."
+BuildingMP4Dialog="Прављење MP4"
+Cancel="Прекинути"
+ClearHotkey="Очисти"
+Close="Затвори"
+Color="Боја"
+Default="Подразумевано"
+Defaults="Подразумевано"
+DeleteConfirm="Да ли сте сигурни да желите да обришете изабране ставке?"
+Desktop="Десктоп"
+Disable="Онемогући"
+EndingDelay="Прекидање Одлаганог Стрима..."
+EnterName="Молим упишите име"
+Gamma="Гамма:"
+GlobalSources="Глобални извори..."
+IncompatibleModules="Детектовани су некомпатибилни хукови у ОБС процесу. Проверите да ли је OBS на игноре листи оверлеј или програма за хватање фрејмова као што су DXTory, FRAPS, ASUS/MSI OSD, итд. Пошто промените игноре подешавања или ако затворите такве програме, требало би да рестартујете ОБС да би промене ступиле на снагу.\r\n\r\nМожете такође игнорисати ово упозорење и наставити даље са радом уз ризик да вам ОБС престане да ради."
+MicrophoneFailure="Грешка се појавила приликом покретања микрофона - могуће је да је искључен, или га друга апликација користи."
+MonitorNum="Екран $1"
+MoveDown="Спусти доле"
+MoveToBottom="Спусти на дно"
+MoveToTop="Помери на врх"
+MoveUp="Помери горе"
+NameExists="'$1' већ постоји. Молим укуцајте друго име"
+None="Ниједан"
+OK="У реду"
+Optimize="оптимизирај"
+Plugins="Додаци..."
+Reconnecting="Поновно повезивање..."
+Refresh="Освежи"
+Remove="Уклони"
+Rename="Преименуј"
+Copy="Копирај"
+Scene="Сцена"
+Settings="Подешавања..."
+LogWindow="Прозор са логовима"
+StreamReport="Извештај Стрим-а"
+MessageBoxWarningCaption="Упозорење"
+NoSourcesFound="Нисте додали ни један извор за снимање!Да ли сте сигурни да желите да стримујете црн екран?"
+
+
+
+
+
+
+
+BuildingMP4Dialog.Progress="Прављење MP4, молимо сачекајте..."
+
+Connection.CouldNotConnect="Не могу да се повежем на сервер"
+Connection.CouldNotParseURL="Не могу рашчланити RTMP URL"
+Connection.Disconnected="Дисконеткован од стране сервера"
+Connection.InvalidStream="Не могу приступити одређеном каналу или стрим кључу. Ово је могуће, зато што је унети кључ/канал погрешан, или зато што сервер мисли да сте идаље улоговани."
+
+DeleteConfirm.Title="Избрисати одабране ставке?"
+
+EndingDelay.TimeLeft="Преостало време : $1"
+
+GlobalSources.DeleteConfirm="Ако избришете глобални извор, биће избрисан из сваке сцене у којој се користи. Да ли сте сигурни да желите да наставите?"
+
+Listbox.Add="Додај $1"
+Listbox.Center="Центар"
+Listbox.CenterHorizontally="Центрирај хоризонтално"
+Listbox.CenterVertically="Центрирај вертикално"
+Listbox.MoveTop="Премести на Врх"
+Listbox.MoveRight="Помери на десни крај"
+Listbox.MoveBottom="Премести на Дно"
+Listbox.MoveLeft="Помери на леви крај"
+Listbox.Config="Параметри"
+Listbox.FitToScreen="Рашири по екрану"
+Listbox.Positioning="Позиција/Величина"
+Listbox.ResetSize="Ресетуј величину"
+Listbox.SetHotkey="Подеси пречицу"
+ListBox.ResetCrop="Ресетуј исецање"
+
+
+MainMenu.File="&Фајл"
+MainMenu.Help="&Помоћ"
+MainMenu.Profiles="&Профили"
+MainMenu.Settings="&Подешавања"
+
+
+MainMenu.Settings.AlwaysOnTop="&Увек на врху"
+MainMenu.Settings.FullscreenMode="&Прегледај у пуној величини"
+MainMenu.Settings.Projector="&Пројектор"
+
+MainMenu.File.Exit="Излаз (&X)"
+MainMenu.File.OpenRecordingsFolder="Отворите записни фолдер"
+MainMenu.File.Save="&Сними"
+
+
+MainMenu.Help.VisitWebsite="Посети Сајт"
+MainMenu.Help.CheckForUpdates="Провери да ли има доступних &апдејтова"
+
+MainMenu.Settings.OpenConfigFolder="Отвори &Конфигурациони фолдер"
+MainMenu.Settings.OpenLogFolder="Отвори &Извештајни фолдер"
+MainMenu.Settings.ShowLogWindow="Прикажи прозор са логовима"
+
+MainWindow.BeginMessage="Тренутно не стимујете\n\n Притисните \"Започни Стримовање\" или \"Прикажи Стрим\" да почнете"
+MainWindow.Dashboard="Командна табла"
+MainWindow.DroppedFrames="Испуштени фрејмови:"
+MainWindow.Exit="Излаз"
+MainWindow.Plugins="Додатци"
+MainWindow.SceneEditor="Измени сцену"
+MainWindow.Scenes="Сцене:"
+MainWindow.Sources="Извори:"
+MainWindow.StartRecording="Почни да снимаш"
+MainWindow.StopRecording="Престани да снимаш"
+MainWindow.StartStream="Покрени Стримовање"
+MainWindow.StopStream="Заустави Стримовање"
+MainWindow.StopTest="Прекини преглед"
+MainWindow.TestStream="Прегледај стрим"
+
+
+Plugins.Configure="Конфигуриши"
+Plugins.Description="Опис:"
+Plugins.Filename="Име фајла:"
+Plugins.InvalidVersion="Додатак '%s' направњен је за %d битну верзију ОБСа и није га могуће покренути. Проверите да ли користите исправну верзију додатка инсталирану."
+
+Reconnecting.Retrying="Не могу се реконектовати. Покушавам поново"
+
+RenderView.EnableView="Омогући преглед"
+RenderView.DisplayPanel="Омогући контролну таблу"
+RenderView.ViewModeScaleToFit="Скалирај да одговара величини прозора"
+RenderView.ViewMode1To1="1:1 мод"
+
+Scene.Hotkey="Пречица за сцену"
+Scene.MissingSources="Није могуће учитати све слике због погрешног подешавања или недостајућих додатака"
+
+Scene.Hotkey.AlreadyInUse="Пречица већ у употреби."
+Scene.Hotkey.Hotkey="Пречица:"
+
+Capture.Start.FileStream.WarningCaption="Упозорење"
+Capture.Start.FileStream.Warning="Није могуће сачувати излазни фајл.\n\nПроверите путању у подешавањима стрима."
+
+Settings.Advanced="Напредно"
+Settings.Audio="Звук"
+Settings.Encoding="Кодирање"
+Settings.General="Опште"
+Settings.Info="Ова подешавања се неће применити до следећег стрима."
+Settings.Publish="Подешавања стриминга"
+Settings.SaveChangesPrompt="Да ли желите да сачувате и примените измене?"
+Settings.SaveChangesTitle="Промени подешавања?"
+Settings.Video="Видео"
+
+
+
+Settings.Advanced.AllowOtherHotkeyModifiers="Дозволи друге модификаторе на пречицама"
+Settings.Advanced.BindToIP="Додели интерфејс:"
+Settings.Advanced.DisablePreviewEncoding="Искључи кодирање u reжиму прегледа"
+Settings.Advanced.GlobalAudioTimeAdjust="Унесите Вредност Кашњења Аудио Снимка (Милисекунди):"
+Settings.Advanced.LatencyTuning="Фино подешавање латенције:"
+Settings.Advanced.Network="Мрежа"
+Settings.Advanced.PresetWarning="УПОЗОРЕЊЕ! Промена х264 конфигурације може имати озбиљне негативне ефекте на квалитет вашег стрима и заузетост процесора.\r\n\r\nНе мењајте ову поставку уколико потпуно не схватате последице ове конфигурације на ваш стрим.\r\n\r\nПоступајте опрезно са било којим водичом који саветује промену овога. Скоро никад не би сте требали мењати ову опцију у односу на основно подешавање (веома брзо).\r\n\r\nДа ли сте сигурни да желите да промените конфигурацију?"
+Settings.Advanced.ProcessPriority="Приоритет ОБС програма"
+Settings.Advanced.SendBufferSize="Величина пуфера за слање:"
+Settings.Advanced.UnlockHigherFPS="Дозволи унос 61-120 ФПС-а у видео подешавањима"
+Settings.Advanced.UseCBR="Користи ЦБР"
+Settings.Advanced.PadCBR="Омогући ЦБР постављање"
+Settings.Advanced.PadCBRToolTip="Обично је укључено за нормалан ЦБР."
+Settings.Advanced.UseCFR="Користи ЦФР"
+Settings.Advanced.UseMultithreadedOptimizations="Користи Висејезгричну оптимизацију"
+Settings.Advanced.SceneBufferTime="Време Пуферисање сцене(У милисекундама):"
+Settings.Advanced.SyncToVideoTime="Силуј десктоп звуке да користе тренуте у видео-у као основу за аудио време"
+Settings.Advanced.VideoEncoderCPUTradeoff="х264 CPU Подешавања:"
+Settings.Advanced.VideoEncoderCPUTradeoffToolTip="Стављање ове валуте на већу опцију смањиће коришћење процесора тако што ће смањити квалитет слике. Са друге стране, подешавање ове валуте на мању опцију побољшаће квалитет слике са ценом од веће потрошње процесора.\r\n\r\nПрепоручена валута: Врло Брзо"
+Settings.Advanced.VideoEncoderSettings="Прилагођена х264 енкодер Подешавања"
+Settings.Advanced.VideoEncoderSettingsTooltip="Ово омогућава коришћење прилагођених х264 енкодер подешавања. у следећем облику:(параметар)=(валута) (На Пр. \"vbv-maxrate=1000 vbv-bufsize=1000\")."
+Settings.Advanced.X264Profile="профил кодирања:"
+Settings.Advanced.NVENCPreset="НВЕНЦ Пресет:"
+
+Settings.Advanced.Priority.Idle="Неактиван"
+Settings.Advanced.Priority.Normal="Нормалан"
+Settings.Advanced.Priority.AboveNormal="Изнад нормале"
+Settings.Advanced.Priority.High="Висок"
+
+Settings.Audio.DesktopBoost="Валута Десктоп Појачања (више):"
+Settings.Audio.Device="Микорофон/Помоћни Звучни Уређај:"
+Settings.Audio.ForceMicMono="Силуј Микрофон/Помоћни(Звучни уређај) на Моно"
+Settings.Audio.MicBoost="Мик/Пом појачање(више):"
+Settings.Audio.MicSyncFix="хацк за микрофонску синхронизацију"
+Settings.Audio.PushToTalkDelay="Кашњење Притисни-да-би причао функције (у милисекундама):"
+Settings.Audio.ShowOnlyConnectedDevices="прикажи само повезане уређаје"
+Settings.Audio.UseInputDevices="Користи улазни уређај за десктоп звук"
+Settings.Audio.UseMicQPC="Користи QPC временске разлике за микрофон"
+Settings.Audio.ResetMic="Поново учитај"
+
+Settings.Encoding.Audio="звучно шифровање"
+Settings.Encoding.Video="Видео шифровање"
+
+Settings.Encoding.Audio.Bitrate="Битрате:"
+Settings.Encoding.Audio.Codec="Кодеци:"
+Settings.Encoding.Audio.Format="Формат:"
+Settings.Encoding.Audio.Channel="програм:"
+
+Settings.Encoding.Video.Encoder="Кодер:"
+Settings.Encoding.Video.Encoderx264="x264"
+Settings.Encoding.Video.EncoderQSV="Quick Sync"
+Settings.Encoding.Video.EncoderNVENC="Nvidia NVENC"
+Settings.Encoding.Video.BufferSize="Величина Пуфера (у килобајтима):"
+Settings.Encoding.Video.MaxBitRate="Максимални Битрате (у килобајтима по секунди):"
+Settings.Encoding.Video.Quality="баланс квалитета:"
+
+Settings.General.Add="Додај нови"
+Settings.General.Language="Језик:"
+Settings.General.Profile="Подешавања профила:"
+Settings.General.ShowObs="Прикажи OBS"
+Settings.General.HideObs="Сакриј OBS"
+Settings.General.Restart="због промењавање језика ОБС мораће бити рестартован..\r\n\r\n..Али предпостављам ако мењас језик да немозес да разумес ово"
+
+Settings.Publish.AutoReconnect="Аутоматско-поновно повезивање:"
+Settings.Publish.ChannelName="Име канала:"
+Settings.Publish.Delay="Кашњење (у секундама):"
+Settings.Publish.LowLatencyMode="Умањи Утицај на Интернет:"
+Settings.Publish.Mode="Начин:"
+Settings.Publish.Password="Шифра (ако постоји):"
+Settings.Publish.SavePath="Путања дадотеке:"
+Settings.Publish.Server="Сервер:"
+Settings.Publish.Username="Корисничко име (ако има):"
+
+
+Settings.Publish.Mode.FileOnly="само локални излазак"
+Settings.Publish.Mode.LiveStream="уживо стреамовање"
+
+
+Settings.Publish.Optimize.UseCBR="- ЦБР ће бити омогућен\n"
+
+Settings.Video.Custom="Прилагођено:"
+Settings.Video.DisableAero="Онемогучи Аеро:"
+Settings.Video.Downscale="Смањивање резолуције(која се шаље на сервер-е):"
+Settings.Video.Filter="Филтер:"
+Settings.Video.FPS="FPS:"
+Settings.Video.Monitor="Екран:"
+Settings.Video.Resolution="Основна Резолуција:"
+
+Settings.Video.Filter.Bilinear="билинеарно (најбрже)"
+
+Sources.BitmapSource="Слика"
+Sources.TextSource="Текст"
+
+Sources.BitmapSource.Color="Боја:"
+Sources.BitmapSource.Opacity="Провидност:"
+
+
+Sources.SoftwareCaptureSource.EntireWindow="Цео прозор"
+Sources.SoftwareCaptureSource.Position="Позиција:"
+Sources.SoftwareCaptureSource.Select="Изабери"
+Sources.SoftwareCaptureSource.Window="Прозор:"
+
+Sources.TextSource.Align="Сложи:"
+Sources.TextSource.EnterText="Унесите текст"
+Sources.TextSource.FileNotFound="Не могу отворити фајл '$1'"
+Sources.TextSource.Italic="Курзив"
+Sources.TextSource.Left="Лево"
+Sources.TextSource.Right="Десно"
+Sources.TextSource.ScrollSpeed="Брзина Скролловања:"
+Sources.TextSource.Size="Величина:"
+Sources.TextSource.Underline="Подвуци"
+Sources.TextSource.OutlineThickness="Танкоћа:"
+Sources.TextSource.VerticalScript="Вертикално"
+
+Sources.TransitionSource.Randomize="Насумично:"
+
+Stats="Статистика"
+
+
+
+
+Updater.DownloadNow="Да ли бисте желели да их преузмете одмах?"
+Updater.UpdatesAvailable="Надоградње су доступне"
+Updater.NoUpdatesAvailable="Нема нових верзија"
+
+MainMenu.Help.LogFiles="Лог фајлови"
+MainMenu.Help.AnalyzeCurrentLog="Анализирај тренутни лог фајл"
+
+LogUpload.SuccessDialog.Copy="Копирај"
+LogUpload.SuccessDialog.CopySuccess="Копирано!"
+LogUpload.SuccessDialog.CopyFailure="Није било могуће копирати!"
+
+LogUpload.CannotOpenFile="читање лога '%s' није успело. Проверите да ли неки други програм користи лог фајл и покушајте поново."
+LogUpload.Analyze="Анализирај"
+LogUpload.Upload="Уплоад"
+LogUpload.View="Погледај"
+
+Plugins.NoiseGate.PluginName="Праг Микрофона"
+Plugins.NoiseGate.PluginDescription="Сманјује звукове микрофона аутоматским гашењем када не говорите."
+Plugins.NoiseGate.Thresholds="Граница"
+Plugins.NoiseGate.General="Општо"
+Plugins.NoiseGate.Help="Помоћ"
+Plugins.NoiseGate.HelpText="Праг микрофона аутомаски онемогући улазни сигнал када пређе доњу границу и омогући га када премаши горњу границу. Добар почетни ниво за границе је 4 дб за доњу границу изнад најјаче буке, а 6 дб изнад доње границе за горнњу.\n\nПраг микрофона је тренутачно онемогућен док је овај прозор отворен."
+Plugins.NoiseGate.ConfigureTitle="Подеси праг микрофона"
+Plugins.NoiseGate.EnablePreview="Омогући преглед"
+Plugins.NoiseGate.DisablePreview="Онемогући преглед"
+Plugins.NoiseGate.ResetToDefaults="Врати на фабричка подешавања"
+Plugins.NoiseGate.ConfirmReset="Дали сте сигурни да желите вратити све опције на фабричка подешавања?"
+Plugins.NoiseGate.EnableNoiseGate="Омогући праг микрофона:"
+Plugins.NoiseGate.OpenThreshold="Отвори\nпраг"
+Plugins.NoiseGate.CloseThreshold="Затвори\nпраг"
+Plugins.NoiseGate.AttackTime="Време напада (у милисекундама):"
+Plugins.NoiseGate.HoldTime="Време Задржавања (у милисекундама):"
+Plugins.NoiseGate.ReleaseTime="Време Пуштања (у милисекундама):"
+
+
